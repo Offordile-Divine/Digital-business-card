@@ -1,0 +1,11 @@
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 80%;
+    height: 400px;
+    background-size: contain;
+    border-radius: 10px 10px 0px 0px;
+}

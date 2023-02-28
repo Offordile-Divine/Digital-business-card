@@ -1,0 +1,72 @@
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.email {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 150px;
+}
+
+.linkedin {
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 150px;
+}
+
+.email button{
+    background: #FFFFFF;
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.email button i {
+    margin-right: 10px;
+}
+
+.linkedin button {
+    border: none;
+    width: 100%;
+    text-align: center;
+    background: #5093E2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.linkedin button i {
+    margin-right: 7px;
+}
+
+@media (max-width: 425px) {
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linkedin {
+        margin-top: 10px;
+    }
+}

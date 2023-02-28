@@ -1,0 +1,27 @@
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.item {
+    width: 80%;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item i {
+    font-size: 40px;
+}
+
+@media (max-width: 425px) {
+    .item i {
+        font-size: 30px;
+    }
+}
